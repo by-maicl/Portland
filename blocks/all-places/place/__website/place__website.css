@@ -1,0 +1,11 @@
+.place__website{
+    grid-row: 1;
+    margin-top: auto
+}
+@media screen and (max-width: 320px) {
+    .place__website {
+       width: 288px;
+       order: -1;
+       padding-left: 10px;
+    }
+}

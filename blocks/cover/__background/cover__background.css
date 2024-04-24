@@ -1,0 +1,22 @@
+.cover__background {
+    height: auto;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .cover__background {
+        width: 1024px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .cover__background {
+       width: 768px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .cover__background {
+       width: 320px;
+    }
+}
+

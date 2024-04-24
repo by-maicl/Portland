@@ -1,0 +1,25 @@
+.place{
+    width: 984px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    color: #FFFFFF;
+}
+@media screen and (max-width: 1024px) {
+    .place {
+        width: 928px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .place{
+        width: 720px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .place {
+       width: 320px;
+       display: flex;
+       flex-direction: column;
+    }
+}
